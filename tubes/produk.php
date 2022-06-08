@@ -22,7 +22,7 @@
       <!-- Header -->
       <header>
           <div class="container">
-          <h1><a href="index.php">Malwicam</a></h1>
+          <h1><a href="index.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="produk.php">Produk</a></li>
               <li><a href="login.php">Login</a></li>

@@ -4,6 +4,7 @@
     font-family: sans-serif;
 }
 
+
 body {
     background-color: gainsboro;
 }
@@ -225,6 +226,12 @@ footer {
     font-size: 14px;
 }
 
+.tombol-laporan {
+    position: relative;
+    float: right;
+    margin-top: -5px;
+}
+
 @media screen and (max-width: 768px) {
     .container {
         width: 90%;
@@ -241,5 +248,10 @@ footer {
     }
     .col-2 {
         width: 100%;
+    }
+
+    .tombol-laporan {
+        float: left;
+        margin-top: 5px;
     }
 }

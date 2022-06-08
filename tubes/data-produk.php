@@ -26,7 +26,7 @@
       <!-- Header -->
       <header>
           <div class="container">
-          <h1><a href="dashboard.php">Malwicam</a></h1>
+          <h1><a href="dashboard.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="dashboard.php">Dashboard</a></li>
               <li><a href="profil.php">Profil</a></li>
@@ -43,7 +43,21 @@
           <h3>Data Produk</h3>
           <p class="btn badge bg-success"><a href="tambah-produk.php">Tambah Produk</a></p>
           <input class="searchform mt-1" type="text" id="search" name="search" placeholder="Cari Produk..." autocomplete="off" autofocus class="keyword">
-      
+          <form class="tombol-laporan" action="" method="POST">
+          <input type="submit" class="btn bg-primary btn-sm" name="html" value="Laporan Data Produk">
+          <input type="submit" class="btn bg-danger btn-sm" name="pdf" value="Download PDF">          
+        </form>
+
+<?php 
+if(isset($_POST['html'])) {
+  header("location:laporan.php");
+}
+
+if(isset($_POST['pdf'])) {
+  header("location:laporan-cetak.php");
+}
+
+?>
           <table class="table">
   <thead>
     <tr>

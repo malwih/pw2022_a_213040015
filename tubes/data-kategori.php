@@ -25,7 +25,7 @@
       <!-- Header -->
       <header>
           <div class="container">
-          <h1><a href="dashboard.php">Malwicam</a></h1>
+          <h1><a href="dashboard.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="dashboard.php">Dashboard</a></li>
               <li><a href="profil.php">Profil</a></li>

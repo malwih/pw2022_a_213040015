@@ -14,14 +14,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Malwicam</title>
+
+    <title >Malwicam</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
   <body>
       <!-- Header -->
       <header>
           <div class="container">
-          <h1><a href="index.php">Malwicam</a></h1>
+          <h1><a href="index.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="produk.php">Produk</a></li>
               <li><a href="login.php">Login</a></li>
