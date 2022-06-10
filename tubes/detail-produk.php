@@ -24,7 +24,7 @@
       <!-- Header -->
       <header>
           <div class="container">
-          <h1><a href="index.php">Malwicam</a></h1>
+          <h1><a href="index.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="produk.php">Produk</a></li>
               <li><a href="login.php">Login</a></li>
@@ -34,15 +34,13 @@
       </header>
 
       <!-- Search -->
-      <div class="search">
+      
           <div class="container">
               <form action="produk.php">
-                  <input type="text" name="search" placeholder="Cari Produk" value="<?php echo $_GET['search'] ?>">
                   <input type="hidden" name="kat" value="<?php echo $_GET['kat'] ?>">
-                  <input type="submit" class="btn btn-primary" name="cari" value="Cari Produk">
               </form>
           </div>
-      </div>
+     
 
       <!-- Produk Detail -->
       <div class="section">
