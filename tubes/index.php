@@ -23,11 +23,14 @@
       <!-- Header -->
       <header>
           <div class="container">
+            <div class="logoproduk">
           <h1><a href="index.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="produk.php">Produk</a></li>
           </ul>
-          </div>
+</div>
+
+</div>
       </header>
 
       <!-- Search -->

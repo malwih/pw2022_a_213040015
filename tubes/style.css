@@ -121,10 +121,6 @@ header ul li a {
     clear: both;
 }
 
-footer {
-    padding: 25px 0;
-}
-
 .search {
     padding: 10px 0;
     background-color: #fff;
@@ -183,7 +179,7 @@ footer {
 }
 
 .footer {
-    padding: 25px 0;
+    padding: 20px 0;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -191,7 +187,7 @@ footer {
 
 
 .footer small {
-    margin-top: 25px;
+    margin: 5px;
     display: inline-block;
 }
 
