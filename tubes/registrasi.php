@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Registrasi | Malwicam</title>
+    <link rel="shortcut icon" href="img/icon-addressbar.png">
   </head>
   <body id="bg-login">
   <div class="box-login">

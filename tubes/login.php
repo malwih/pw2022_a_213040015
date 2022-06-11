@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Login | Malwicam</title>
+    <link rel="shortcut icon" href="img/icon-addressbar.png">
   </head>
   <body id="bg-login">
   <div class="box-login">
@@ -22,7 +26,6 @@
     </form>
     <?php 
         if(isset($_POST['submit'])) {
-            session_start();
             include 'functions.php';
 
             $user = mysqli_real_escape_string($conn, $_POST['user']);

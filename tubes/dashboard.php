@@ -19,7 +19,8 @@
 
     
 
-    <title>Malwicam</title>
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="img/icon-addressbar.png">
   </head>
   <body>
       <!-- Header -->

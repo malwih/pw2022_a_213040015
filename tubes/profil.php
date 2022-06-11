@@ -21,7 +21,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Malwicam</title>
+    <title>Profil</title>
+    <link rel="shortcut icon" href="img/icon-addressbar.png">
   </head>
   <body>
       <!-- Header -->
@@ -44,6 +45,7 @@
           <h3>Profil</h3>
           <div class="box">
             <form action="" method="POST">
+            <input type="hidden" name="id" value="<?php echo $d->admin_id ?>">
                 <input type="text" name="nama" placeholder="Nama Lengkap" class="input-control" value="<?php echo $d->admin_name ?>" required>
                 <input type="text" name="user" placeholder="Username" class="input-control" value="<?php echo $d->username ?>" required>
                 <input type="text" name="nohp" placeholder="No Handphone" class="input-control" value="<?php echo $d->admin_telp ?>" required>
@@ -64,8 +66,8 @@
                             username = '".$user."',
                             admin_telp = '".$hp."',
                             admin_email = '".$email."',
-                            admin_address = '".$alamat."',
-                            admin_id = '".$d->admin_id."' ");
+                            admin_address = '".$alamat."'
+                            WHERE admin_id = '".$d->admin_id."' ");
                   if($update) {
                     echo '<script>alert("Ubah data berhasil")</script>';
                     echo '<script>window.location="profil.php"</script>';

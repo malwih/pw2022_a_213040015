@@ -22,6 +22,9 @@
   include 'functions.php';
 ?>
 
+<title>Laporan Data Produk</title>
+<link rel="shortcut icon" href="img/icon-addressbar.png">
+
 <div id="judul">LAPORAN DATA PRODUK</div>
 
 <table border="1" align="center">

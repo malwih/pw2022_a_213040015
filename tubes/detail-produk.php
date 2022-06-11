@@ -18,7 +18,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Malwicam</title>
+    <title><?php echo $p->product_name ?></title>
+    <link rel="shortcut icon" href="img/icon-addressbar.png">
   </head>
   <body>
       <!-- Header -->
@@ -27,8 +28,6 @@
           <h1><a href="index.php"><img src="img/logo-malwicam.png" width="150px"></a></h1>
           <ul>
               <li><a href="produk.php">Produk</a></li>
-              <li><a href="login.php">Login</a></li>
-              <li><a href="registrasi.php">Registrasi</a></li>
           </ul>
           </div>
       </header>
@@ -67,18 +66,9 @@
       <!-- Footer -->
 
       <div class="footer">
-          <div class="container">
-              <h4>Alamat</h4>
-              <p><?php echo $a->admin_address ?></p>
-
-              <h4>Email</h4>
-              <p><?php echo $a->admin_email ?></p>
-
-              <h4>No.HP</h4>
-              <p><?php echo $a->admin_telp ?></p>
               <small>Copyright &copy; 2022 - Malwicam</small>
           </div>
-      </div>
+      
 
   
     <!-- Optional JavaScript; choose one of the two! -->
