@@ -46,11 +46,11 @@
           <div class="box">
             <form action="" method="POST">
             <input type="hidden" name="id" value="<?php echo $d->admin_id ?>">
-                <input type="text" name="nama" placeholder="Nama Lengkap" class="input-control" value="<?php echo $d->admin_name ?>" required>
-                <input type="text" name="user" placeholder="Username" class="input-control" value="<?php echo $d->username ?>" required>
-                <input type="text" name="nohp" placeholder="No Handphone" class="input-control" value="<?php echo $d->admin_telp ?>" required>
-                <input type="email" name="email" placeholder="Email" class="input-control" value="<?php echo $d->admin_email ?>" required>
-                <input type="text" name="alamat" placeholder="Alamat" class="input-control" value="<?php echo $d->admin_address ?>" required>
+                <input type="text" name="nama" placeholder="Nama Lengkap" class="input-control" autocomplete="off" value="<?php echo $d->admin_name ?>" required>
+                <input type="text" name="user" placeholder="Username" class="input-control" autocomplete="off" value="<?php echo $d->username ?>" required>
+                <input type="text" name="nohp" placeholder="No Handphone" class="input-control" autocomplete="off" value="<?php echo $d->admin_telp ?>" required>
+                <input type="email" name="email" placeholder="Email" class="input-control" autocomplete="off" value="<?php echo $d->admin_email ?>" required>
+                <input type="text" name="alamat" placeholder="Alamat" class="input-control" autocomplete="off" value="<?php echo $d->admin_address ?>" required>
                 <input type="submit" name="submit" value="Ubah Profil" class="btn">
             </form>
             <?php
